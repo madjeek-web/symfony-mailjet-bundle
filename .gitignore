@@ -1,0 +1,31 @@
+# Composer dependencies — NEVER commit this folder
+/vendor/
+
+# Composer lock file for libraries (apps should commit this, libraries should not)
+composer.lock
+
+# PHPUnit coverage reports
+/coverage/
+/.phpunit.cache/
+
+# PHP CS Fixer cache
+.php-cs-fixer.cache
+
+# PHPStan cache
+/tmp/
+
+# IDE files — personal preferences, don't impose on others
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Environment files — NEVER commit secrets!
+.env
+.env.local
+.env.*.local
+
+# Build artifacts
+*.phar

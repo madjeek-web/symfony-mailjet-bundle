@@ -1,0 +1,79 @@
+{
+    "name": "fabconejo/symfony-mailjet-bundle",
+    "description": "A modern, async-ready Symfony 7 bundle for Mailjet — PHP 8.3, Messenger, HttpClient, Webhooks & full test coverage.",
+    "type": "symfony-bundle",
+    "keywords": [
+        "mailjet",
+        "symfony",
+        "email",
+        "bundle",
+        "transactional",
+        "async",
+        "messenger",
+        "mailer",
+        "php8"
+    ],
+    "homepage": "https://github.com/fabconejo/symfony-mailjet-bundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Fabien Conéjéro",
+            "homepage": "https://github.com/fabconejo",
+            "role": "Lead Developer"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/fabconejo/symfony-mailjet-bundle/issues",
+        "source": "https://github.com/fabconejo/symfony-mailjet-bundle"
+    },
+    "require": {
+        "php": ">=8.3",
+        "symfony/framework-bundle": "^7.0",
+        "symfony/http-client": "^7.0",
+        "symfony/messenger": "^7.0",
+        "psr/log": "^3.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^11.0",
+        "symfony/test-pack": "^1.1",
+        "phpstan/phpstan": "^1.10",
+        "friendsofphp/php-cs-fixer": "^3.40",
+        "phpstan/phpstan-symfony": "^1.3",
+        "symfony/var-dumper": "^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Fabconejo\\MailjetBundle\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Fabconejo\\MailjetBundle\\Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "stan": "vendor/bin/phpstan analyse src tests --level=9",
+        "cs-fix": "vendor/bin/php-cs-fixer fix",
+        "cs-check": "vendor/bin/php-cs-fixer fix --dry-run --diff",
+        "quality": [
+            "@cs-check",
+            "@stan",
+            "@test"
+        ]
+    },
+    "config": {
+        "sort-packages": true,
+        "optimize-autoloader": true,
+        "allow-plugins": {
+            "symfony/flex": true
+        }
+    },
+    "extra": {
+        "symfony": {
+            "require": "^7.0"
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}

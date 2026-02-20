@@ -1,0 +1,24 @@
+parameters:
+    # Level 9 is the HIGHEST — strictest analysis possible
+    # This catches bugs that weaker static analysis would miss
+    level: 9
+
+    paths:
+        - src
+        - tests
+
+    # Symfony-specific rules (better integration with Symfony containers/services)
+    symfony:
+        containerXmlPath: null
+
+    # Extra strict rules
+    checkMissingIterableValueType: true
+    checkGenericClassInNonGenericObjectType: true
+
+    # Ignore some paths that don't need strict analysis
+    ignoreErrors: []
+
+    # Extra rules for even stricter code quality
+    # (Requires phpstan/phpstan-strict-rules package)
+    # strictRules:
+    #     allRules: true

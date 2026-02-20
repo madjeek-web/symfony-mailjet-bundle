@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    phpunit.xml — PHPUnit Test Configuration
+    
+    🧪 What is PHPUnit?
+    PHPUnit is the standard testing framework for PHP.
+    It lets you write automated tests that verify your code works correctly.
+    
+    Run tests with: composer test
+    Or directly:    vendor/bin/phpunit
+    
+    With coverage:  vendor/bin/phpunit -coverage-html coverage/
+    
+    📖 Learn more: https://phpunit.de/documentation.html
+-->
+<phpunit
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="vendor/phpunit/phpunit/phpunit.xsd"
+    bootstrap="vendor/autoload.php"
+    colors="true"
+    verbose="true"
+    failOnWarning="true"
+    failOnRisky="true"
+>
+    <!-- Where to find the test files -->
+    <testsuites>
+        <testsuite name="Unit Tests">
+            <directory>tests/Unit</directory>
+        </testsuite>
+        <testsuite name="Integration Tests">
+            <directory>tests/Integration</directory>
+        </testsuite>
+    </testsuites>
+
+    <!-- Code Coverage: which source files to measure -->
+    <source>
+        <include>
+            <directory suffix=".php">src</directory>
+        </include>
+        <exclude>
+            <!-- Exclude the main bundle class — it has no testable logic -->
+            <file>src/MailjetBundle.php</file>
+        </exclude>
+    </source>
+
+    <!-- PHP settings for tests -->
+    <php>
+        <!-- Display errors during tests -->
+        <ini name="error_reporting" value="-1"/>
+        <ini name="display_errors" value="On"/>
+        <!-- Test environment variables (use fake API keys for tests!) -->
+        <env name="MAILJET_API_KEY" value="test_api_key_do_not_use_in_production"/>
+        <env name="MAILJET_SECRET_KEY" value="test_secret_key_do_not_use_in_production"/>
+        <env name="MAILJET_SANDBOX_MODE" value="true"/>
+    </php>
+</phpunit>
