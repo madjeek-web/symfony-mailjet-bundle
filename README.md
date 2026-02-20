@@ -11,7 +11,7 @@
 
 ---
 
-symfony-mailjet-bundle, what is it exactly ?
+### symfony-mailjet-bundle, what is it exactly ?
 
 When you use a website and receive an automated email like "Welcome!", "Your order is confirmed", or "Reset your password"... someone had to program that.
 This project is a free toolkit that developers can download and integrate into their application to send these emails automatically, through a specialized service called Mailjet.
