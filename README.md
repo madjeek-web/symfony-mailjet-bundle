@@ -29,7 +29,7 @@ This project acts as a bridge between the two.
 
 Without this project, a developer wanting to send an email via Mailjet in their Symfony application would have to write all the connection, formatting, security, and error-handling code themselves... taking several days of work.
 
-With this project, they simply write:
+With this project, they simply write :
 
 ```php
 $emailSender->sendNow($email); // ← that's it
@@ -38,9 +38,6 @@ And the email is sent. The project takes care of everything else behind the scen
 It's like a universal power adapter: Symfony is the wall outlet, Mailjet is the device, and this bundle is the adapter that connects them properly.
 
 ```
-
----
-
 
 ---
 
