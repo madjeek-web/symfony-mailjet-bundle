@@ -11,6 +11,39 @@
 
 ---
 
+symfony-mailjet-bundle, what is it exactly ?
+
+When you use a website and receive an automated email like "Welcome!", "Your order is confirmed", or "Reset your password"... someone had to program that.
+This project is a free toolkit that developers can download and integrate into their application to send these emails automatically, through a specialized service called Mailjet.
+
+What makes this project professional is the quality of the work provided: the code is fully verified by automated tests (like a safety net), documented, and secured according to enterprise standards.
+It is published as open source, meaning it's freely accessible to developers worldwide, who can use it or contribute to it.
+
+In short : it's a professional tool, generously shared with the community, demonstrating solid technical expertise, attention to detail, and the ability to produce clean, documented, and reusable work.
+
+What this project does, simply put:
+
+Symfony is a tool for building websites in PHP. It can do a lot of things, but it doesn't know how to send emails via Mailjet. Mailjet is an external service, like a digital postal service.
+
+This project acts as a bridge between the two.
+
+Without this project, a developer wanting to send an email via Mailjet in their Symfony application would have to write all the connection, formatting, security, and error-handling code themselves — taking several days of work.
+
+With this project, they simply write:
+
+```php
+$emailSender->sendNow($email); // ← that's it
+And the email is sent. The project takes care of everything else behind the scenes.
+
+It's like a universal power adapter: Symfony is the wall outlet, Mailjet is the device, and this bundle is the adapter that connects them properly.
+
+```
+
+---
+
+
+---
+
 ## 🌐 Demo Page
 
 👉 **[View the live demo & documentation](https://madjeek-web.github.io/symfony-mailjet-bundle/demo/)**
