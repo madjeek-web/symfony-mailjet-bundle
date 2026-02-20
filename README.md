@@ -97,11 +97,11 @@ This is where **Mailjet** comes in. It's a **SaaS (Software as a Service)** plat
 
 ### What can Mailjet do ?
 
-- **Transactional emails : Welcome emails, password resets, order confirmations, invoices - triggered by your app
-- **Marketing emails : Newsletters, promotions, campaigns - sent to many recipients
-- **Real-time tracking : See who opened your email, who clicked a link, who unsubscribed
-- **Contact management**: Store and manage your mailing lists
-- **Webhook notifications** : Mailjet tells YOUR server when an email bounces, is opened, etc.
+- Transactional emails : Welcome emails, password resets, order confirmations, invoices - triggered by your app
+- Marketing emails : Newsletters, promotions, campaigns - sent to many recipients
+- Real-time tracking : See who opened your email, who clicked a link, who unsubscribed
+- Contact management : Store and manage your mailing lists
+- Webhook notifications : Mailjet tells YOUR server when an email bounces, is opened, etc.
 
 ---
 
