@@ -67,13 +67,13 @@ It's like a universal power adapter: Symfony is the wall outlet, Mailjet is the 
 
 ---
 
-## 📧 What is Mailjet?
+## 📧 What is Mailjet ?
 
-### The short answer (for beginners 👶)
+### The short answer (for beginners)
 
 Imagine you've built a website where users can create an account. When they sign up, you want to send them a **welcome email**. Or maybe a **"forgot your password"** email with a reset link.
 
-You *could* try to set up your own email server... but that's incredibly complex. You'd need to handle:
+You *could* try to set up your own email server... but that's incredibly complex. You'd need to handle :
 - Spam blacklists (big email providers like Gmail might block your emails)
 - Server maintenance and configuration
 - Delivery tracking and bounce handling
@@ -122,15 +122,15 @@ This is where **Mailjet** comes in. It's a **SaaS (Software as a Service)** plat
 
 ---
 
-## 🎯 What is this project?
+## 🎯 What is this project ?
 
-This is a **Symfony Bundle** — a reusable plugin for PHP applications built with the [Symfony framework](https://symfony.com/).
+This is a **Symfony Bundle** - a reusable plugin for PHP applications built with the [Symfony framework](https://symfony.com/).
 
 ### The problem it solves
 
-The original Mailjet bundle for Symfony was written in **2015**. The PHP and Symfony ecosystem has changed enormously since then. That old bundle:
+The original Mailjet bundle for Symfony was written in **2015**. The PHP and Symfony ecosystem has changed enormously since then. That old bundle :
 
-- Used Symfony 2 (we're now on Symfony 7 — 5 major versions later!)
+- Used Symfony 2 (we're now on Symfony 7 - 5 major versions later!)
 - Used raw cURL calls (fragile, hard to test)
 - Had no async support (blocks your server while waiting for the API)
 - Had no type safety (PHP has added many type features since 2015)
@@ -148,9 +148,9 @@ The original Mailjet bundle for Symfony was written in **2015**. The PHP and Sym
 
 ---
 
-## 📅 Why is this project relevant in 2026?
+## 📅 Why is this project relevant in 2026 ?
 
-Great question! Here's why this matters right now:
+Great question! Here's why this matters right now :
 
 ### 1. PHP is not dead — it's thriving
 PHP powers **~78% of websites** with a server-side language (including WordPress, Laravel apps, Symfony apps). The latest PHP 8.3 is fast, modern, and has features comparable to other languages. PHP 8.4 is already out.
@@ -183,7 +183,7 @@ With AI-assisted coding becoming common, the ability to write **tested, typed, m
 
 ## ⚙️ Installation
 
-### Step 1: Install via Composer
+### Step 1 : Install via Composer
 
 [Composer](https://getcomposer.org/) is the dependency manager for PHP. It's like `npm` for JavaScript or `pip` for Python.
 
@@ -201,7 +201,7 @@ return [
 ];
 ```
 
-### Step 2: Get Your Mailjet API Keys
+### Step 2 : Get Your Mailjet API Keys
 
 1. Go to [https://www.mailjet.com](https://www.mailjet.com) and create a **free account**
 2. Navigate to **Account Settings** → **API Keys**: [https://app.mailjet.com/account/apikeys](https://app.mailjet.com/account/apikeys)
@@ -247,7 +247,7 @@ mailjet:
         name: 'Your Application Name'
 ```
 
-That's it! 🎉
+That's it ! 🎉
 
 ---
 
@@ -349,9 +349,9 @@ These variables appear in Mailjet's statistics dashboard, letting you analyze em
 
 ## ⚡ Asynchronous Sending
 
-### Why Async?
+### Why Async ?
 
-Consider this scenario: A user submits your registration form. Your server needs to:
+Consider this scenario: A user submits your registration form. Your server needs to :
 
 1. Validate the form data
 2. Create a user record in the database
@@ -362,13 +362,13 @@ If Mailjet's API takes 500ms to respond (which is normal for network calls), you
 
 **With async sending:**
 - Steps 1, 2, and 4 happen in your normal HTTP request (~10ms total)
-- Step 3 is **queued** — a background worker processes it a moment later
+- Step 3 is **queued** - a background worker processes it a moment later
 - Your user gets an instant response
 - The email arrives in their inbox within seconds
 
 ### Setting Up Async
 
-First, make sure Symfony Messenger is installed:
+First, make sure Symfony Messenger is installed :
 
 ```bash
 composer require symfony/messenger
@@ -400,14 +400,14 @@ MESSENGER_TRANSPORT_DSN=redis://localhost:6379/messages
 # MESSENGER_TRANSPORT_DSN=doctrine://default?auto_setup=1
 ```
 
-Now use `sendAsync()` in your code:
+Now use `sendAsync()` in your code :
 
 ```php
 // This returns INSTANTLY — email is queued!
 $this->emailSender->sendAsync($email);
 ```
 
-Start the worker (run in a separate terminal or via Supervisor):
+Start the worker (run in a separate terminal or via Supervisor) :
 
 ```bash
 # Process messages for 1 hour, then restart (good for memory management)
@@ -417,9 +417,9 @@ php bin/console messenger:consume async --time-limit=3600
 php bin/console messenger:consume async -vv
 ```
 
-### For Production: Use Supervisor
+### For Production : Use Supervisor
 
-[Supervisor](http://supervisord.org/) keeps your worker running even if it crashes:
+[Supervisor](http://supervisord.org/) keeps your worker running even if it crashes :
 
 ```ini
 # /etc/supervisor/conf.d/messenger.conf
@@ -437,12 +437,12 @@ stdout_logfile=/var/log/supervisor/messenger.log
 
 ## 📡 Receiving Webhook Events
 
-### What is a Webhook?
+### What is a Webhook ?
 
-A webhook is the **reverse** of a normal API call:
+A webhook is the **reverse** of a normal API call :
 
-- **Normal API**: YOUR app → sends a request → Mailjet responds
-- **Webhook**: Mailjet → sends a request → YOUR app receives it
+- **Normal API** : YOUR app → sends a request → Mailjet responds
+- **Webhook** : Mailjet → sends a request → YOUR app receives it
 
 When something happens to your emails (delivered, bounced, opened, link clicked, unsubscribed, marked as spam), Mailjet sends a **POST request** to a URL you configure. This lets you react in real time.
 
@@ -457,7 +457,7 @@ When something happens to your emails (delivered, bounced, opened, link clicked,
 
 ### Add the Webhook Route
 
-The bundle provides a controller. Add the route to your app's routing config:
+The bundle provides a controller. Add the route to your app's routing config :
 
 ```yaml
 # config/routes/mailjet.yaml
@@ -545,7 +545,7 @@ composer quality
 
 ## 🏗️ Project Architecture
 
-Here's how the code is organized, and why:
+Here's how the code is organized, and why :
 
 ```
 symfony-mailjet-bundle/
@@ -690,7 +690,7 @@ This project can be used to teach:
 
 ## 🤝 Contributing
 
-Contributions are welcome from **everyone** — whether you're a student learning PHP, a professional developer, or a teacher improving the documentation!
+Contributions are welcome from **everyone** - whether you're a student learning PHP, a professional developer, or a teacher improving the documentation!
 
 ### How to Contribute
 
@@ -703,7 +703,7 @@ Contributions are welcome from **everyone** — whether you're a student learnin
 
 ### Good First Issues
 
-Look for issues labeled `good first issue` on GitHub — these are small, well-defined tasks perfect for newcomers.
+Look for issues labeled `good first issue` on GitHub - these are small, well-defined tasks perfect for newcomers.
 
 ### What We Need
 
@@ -723,7 +723,7 @@ We follow the **Symfony Coding Standards**. Run `composer cs-fix` before committ
 
 This project is licensed under the **MIT License** — one of the most permissive open-source licenses.
 
-### What MIT means for you:
+### What MIT means for you :
 
 ✅ You CAN use this in commercial projects  
 ✅ You CAN modify the code  
