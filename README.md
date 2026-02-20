@@ -13,7 +13,7 @@
 
 ## 🌐 Demo Page
 
-👉 **[View the live demo & documentation](https://fabconejo.github.io/symfony-mailjet-bundle/demo/)**
+👉 **[View the live demo & documentation](https://madjeek-web.github.io/symfony-mailjet-bundle/demo/)**
 
 ---
 
@@ -700,7 +700,7 @@ Full license text: [https://opensource.org/licenses/MIT](https://opensource.org/
 
 **Fabien Conéjéro**
 
-- GitHub: [@fabconejo](https://github.com/madjeek-web)
+- GitHub: [@fabienconejero](https://github.com/madjeek-web)
 - Repository: [github.com/fabconejo/symfony-mailjet-bundle](https://github.com//madjeek-web/symfony-mailjet-bundle)
 
 *Created on February 20, 2026*
