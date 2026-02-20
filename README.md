@@ -103,6 +103,16 @@ This is where **Mailjet** comes in. It's a **SaaS (Software as a Service)** plat
 - **Contact management**: Store and manage your mailing lists
 - **Webhook notifications**: Mailjet tells YOUR server when an email bounces, is opened, etc.
 
+---
+
+### **What is the concrete purpose of it? **
+- Send **confirmation emails** of registration
+- Send **transactional emails* (invoice, reset password, notification)
+- Send one-by-one **personalized campaigns* with a Twig template per recipient
+- All without managing a mail server, just an API key
+
+---
+
 ### Mailjet vs competitors
 
 | Service | Free Tier | Notes |
