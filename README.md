@@ -1,4 +1,4 @@
-# 📬 symfony-mailjet-bundle
+# symfony-mailjet-bundle
 
 > **A modern, async-ready Symfony 7 bundle for sending emails via Mailjet.**
 > Built with PHP 8.3, Symfony Messenger, HttpClient, Webhooks & 100% test coverage.
@@ -41,16 +41,16 @@ It's like a universal power adapter: Symfony is the wall outlet, Mailjet is the 
 
 ---
 
-## 🌐 Demo Page
+## Demo Page
 
-👉 **[View the live demo & documentation](https://madjeek-web.github.io/symfony-mailjet-bundle/demo/)**
+ **[View the live demo & documentation](https://madjeek-web.github.io/symfony-mailjet-bundle/demo/)**
 
 
 <img src="https://github.com/madjeek-web/symfony-mailjet-bundle/raw/main/screen_demo_mailjet.jpg" alt="symfony mailjet bundle page demo" width="100%" height="100%">
 
 ---
 
-## 📖 Table of Contents
+## Table of Contents
 
 1. [What is Mailjet?](#-what-is-mailjet)
 2. [What is this project?](#-what-is-this-project)
@@ -70,7 +70,7 @@ It's like a universal power adapter: Symfony is the wall outlet, Mailjet is the 
 
 ---
 
-## 📧 What is Mailjet ?
+## What is Mailjet ?
 
 ### The short answer (for beginners)
 
@@ -90,7 +90,7 @@ This is where **Mailjet** comes in. It's a **SaaS (Software as a Service)** plat
 |---------|---------|
 | **Website** | [https://www.mailjet.com](https://www.mailjet.com) |
 | **API Docs** | [https://dev.mailjet.com](https://dev.mailjet.com) |
-| **Free tier?** | ✅ Yes! 200 emails/day free, 6,000/month |
+| **Free tier?** | Yes! 200 emails/day free, 6,000/month |
 | **Paid plans** | From ~€15/month for 15,000 emails |
 | **Founded** | 2010, headquartered in Paris, France 🇫🇷 |
 | **Who uses it?** | Over 150,000 companies worldwide |
@@ -125,7 +125,7 @@ This is where **Mailjet** comes in. It's a **SaaS (Software as a Service)** plat
 
 ---
 
-## 🎯 What is this project ?
+## What is this project ?
 
 This is a **Symfony Bundle** - a reusable plugin for PHP applications built with the [Symfony framework](https://symfony.com/).
 
@@ -151,7 +151,7 @@ The original Mailjet bundle for Symfony was written in **2015**. The PHP and Sym
 
 ---
 
-## 📅 Why is this project relevant in 2026 ?
+## Why is this project relevant in 2026 ?
 
 Great question! Here's why this matters right now :
 
@@ -172,7 +172,7 @@ With AI-assisted coding becoming common, the ability to write **tested, typed, m
 
 ---
 
-## 📋 Requirements
+## Requirements
 
 | Requirement | Minimum Version | Notes |
 |-------------|-----------------|-------|
@@ -184,7 +184,7 @@ With AI-assisted coding becoming common, the ability to write **tested, typed, m
 
 ---
 
-## ⚙️ Installation
+## Installation
 
 ### Step 1 : Install via Composer
 
@@ -210,7 +210,7 @@ return [
 2. Navigate to **Account Settings** → **API Keys**: [https://app.mailjet.com/account/apikeys](https://app.mailjet.com/account/apikeys)
 3. Copy your **API Key** and **Secret Key**
 
-> 🔐 **Security tip**: Treat your API keys like passwords. Never commit them to Git. Never hardcode them in PHP files.
+> **Security tip**: Treat your API keys like passwords. Never commit them to Git. Never hardcode them in PHP files.
 
 ### Step 3: Add Credentials to `.env`
 
@@ -230,7 +230,7 @@ MAILJET_WEBHOOK_SECRET=
 ###< fabconejo/symfony-mailjet-bundle ###
 ```
 
-> ✅ Make sure `.env` is in your `.gitignore` file! Never push real API keys to GitHub.
+ > Make sure `.env` is in your `.gitignore` file! Never push real API keys to GitHub.
 
 ### Step 4: Create Bundle Configuration
 
@@ -250,11 +250,11 @@ mailjet:
         name: 'Your Application Name'
 ```
 
-That's it ! 🎉
+That's it ! 
 
 ---
 
-## 🚀 Usage — Sending Emails
+## Usage — Sending Emails
 
 ### The Basics: EmailMessage Builder
 
@@ -350,7 +350,7 @@ These variables appear in Mailjet's statistics dashboard, letting you analyze em
 
 ---
 
-## ⚡ Asynchronous Sending
+## Asynchronous Sending
 
 ### Why Async ?
 
@@ -438,7 +438,7 @@ stdout_logfile=/var/log/supervisor/messenger.log
 
 ---
 
-## 📡 Receiving Webhook Events
+## Receiving Webhook Events
 
 ### What is a Webhook ?
 
@@ -456,7 +456,7 @@ When something happens to your emails (delivered, bounced, opened, link clicked,
 3. Add your webhook URL: `https://yourdomain.com/mailjet/webhook`
 4. Select which events to receive (delivered, open, click, bounce, spam, unsub)
 
-> ⚠️ Your webhook URL must be **publicly accessible** (Mailjet needs to reach it). In local development, use [ngrok](https://ngrok.com/) to create a temporary public URL.
+> Your webhook URL must be **publicly accessible** (Mailjet needs to reach it). In local development, use [ngrok](https://ngrok.com/) to create a temporary public URL.
 
 ### Add the Webhook Route
 
@@ -495,7 +495,7 @@ class HandleEmailSentListener
 
 ---
 
-## 🧪 Running the Tests
+## Running the Tests
 
 ### Install test dependencies
 
@@ -546,7 +546,7 @@ composer quality
 
 ---
 
-## 🏗️ Project Architecture
+## Project Architecture
 
 Here's how the code is organized, and why :
 
@@ -635,7 +635,7 @@ symfony-mailjet-bundle/
 
 ---
 
-## 🎓 For Teachers & Students
+## For Teachers & Students
 
 ### Learning Objectives
 
@@ -691,7 +691,7 @@ This project can be used to teach:
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome from **everyone** - whether you're a student learning PHP, a professional developer, or a teacher improving the documentation!
 
@@ -710,11 +710,11 @@ Look for issues labeled `good first issue` on GitHub - these are small, well-def
 
 ### What We Need
 
-- 🐛 Bug reports and fixes
-- 📚 Documentation improvements
-- 🧪 More test cases
-- ✨ New features (open an issue first to discuss!)
-- 🌍 Translations of comments to other languages
+- Bug reports and fixes
+-  Documentation improvements
+-  More test cases
+-  New features (open an issue first to discuss!)
+-  Translations of comments to other languages
 
 ### Code Style
 
@@ -722,24 +722,24 @@ We follow the **Symfony Coding Standards**. Run `composer cs-fix` before committ
 
 ---
 
-## 📜 License
+## License
 
 This project is licensed under the **MIT License** — one of the most permissive open-source licenses.
 
 ### What MIT means for you :
 
-✅ You CAN use this in commercial projects  
-✅ You CAN modify the code  
-✅ You CAN redistribute it  
-✅ You CAN use it privately  
-❌ The author provides NO warranty  
-❗ You MUST include the copyright notice  
+ You CAN use this in commercial projects  
+ You CAN modify the code  
+ You CAN redistribute it  
+ You CAN use it privately  
+ The author provides NO warranty  
+ You MUST include the copyright notice  
 
 Full license text: [https://opensource.org/licenses/MIT](https://opensource.org/licenses/MIT)
 
 ---
 
-## 👤 Author
+## Author
 
 **Fabien Conéjéro**
 
@@ -750,7 +750,7 @@ Full license text: [https://opensource.org/licenses/MIT](https://opensource.org/
 
 ---
 
-## 🔗 Useful Links
+## Useful Links
 
 | Resource | URL |
 |----------|-----|
@@ -767,4 +767,4 @@ Full license text: [https://opensource.org/licenses/MIT](https://opensource.org/
 
 ---
 
-*⭐ If this project helped you, please star it on GitHub! It encourages continued development.*
+* If this project helped you, please star it on GitHub! It encourages continued development.*
