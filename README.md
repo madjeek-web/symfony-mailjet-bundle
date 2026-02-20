@@ -697,12 +697,12 @@ Contributions are welcome from **everyone** - whether you're a student learning 
 
 ### How to Contribute
 
-1. **Fork** this repository on GitHub
-2. **Clone** your fork: `git clone https://github.com/YOUR_USERNAME/symfony-mailjet-bundle.git`
-3. **Create a branch**: `git checkout -b feature/my-improvement`
-4. **Make your changes** (with tests!)
-5. **Run quality checks**: `composer quality`
-6. **Push** and open a **Pull Request**
+1. Fork this repository on GitHub
+2. Clone your fork : `git clone https://github.com/YOUR_USERNAME/symfony-mailjet-bundle.git`
+3. Create a branch : `git checkout -b feature/my-improvement`
+4. Make your changes (with tests!)
+5. Run quality checks : `composer quality`
+6. Push and open a **Pull Request**
 
 ### Good First Issues
 
@@ -767,4 +767,4 @@ Full license text: [https://opensource.org/licenses/MIT](https://opensource.org/
 
 ---
 
-* If this project helped you, please star it on GitHub! It encourages continued development.
+* If this project helped you, please star it on GitHub ! It encourages continued development.
