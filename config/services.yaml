@@ -1,0 +1,33 @@
+# config/services.yaml — Example configuration for your Symfony application
+#
+# 📋 What is this file?
+# This shows how to configure this bundle in your Symfony app.
+# Copy the relevant parts to your app's config/packages/mailjet.yaml
+#
+# ⚠️ This file is an EXAMPLE — it's not used by the bundle itself.
+#    The bundle uses DependencyInjection/MailjetExtension.php for configuration.
+
+# ===================================================
+# Create this file in your app: config/packages/mailjet.yaml
+# ===================================================
+
+mailjet:
+    # Your Mailjet API Key — NEVER hardcode this! Use .env
+    # Get your keys at: https://app.mailjet.com/account/apikeys
+    api_key: '%env(MAILJET_API_KEY)%'
+
+    # Your Mailjet Secret Key
+    secret_key: '%env(MAILJET_SECRET_KEY)%'
+
+    # Sandbox mode: when true, emails are validated but NOT sent
+    # Tip: Use '%kernel.debug%' to auto-enable in dev, disable in prod
+    sandbox_mode: '%env(bool:MAILJET_SANDBOX_MODE)%'
+
+    # Webhook secret for verifying requests from Mailjet
+    # Generate a random string: php -r "echo bin2hex(random_bytes(32));"
+    webhook_secret: '%env(MAILJET_WEBHOOK_SECRET)%'
+
+    # Optional default sender (so you don't repeat it in every email)
+    default_from:
+        email: '%env(MAILJET_DEFAULT_FROM_EMAIL)%'
+        name: '%env(MAILJET_DEFAULT_FROM_NAME)%'
