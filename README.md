@@ -95,7 +95,7 @@ This is where **Mailjet** comes in. It's a **SaaS (Software as a Service)** plat
 | **Founded** | 2010, headquartered in Paris, France 🇫🇷 |
 | **Who uses it?** | Over 150,000 companies worldwide |
 
-### What can Mailjet do?
+### What can Mailjet do ?
 
 - **Transactional emails**: Welcome emails, password resets, order confirmations, invoices — triggered by your app
 - **Marketing emails**: Newsletters, promotions, campaigns — sent to many recipients
@@ -105,7 +105,7 @@ This is where **Mailjet** comes in. It's a **SaaS (Software as a Service)** plat
 
 ---
 
-### **What is the concrete purpose of it? **
+### What is the concrete purpose of it ?
 - Send **confirmation emails** of registration
 - Send **transactional emails* (invoice, reset password, notification)
 - Send one-by-one **personalized campaigns* with a Twig template per recipient
