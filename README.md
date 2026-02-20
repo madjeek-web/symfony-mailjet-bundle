@@ -767,4 +767,4 @@ Full license text: [https://opensource.org/licenses/MIT](https://opensource.org/
 
 ---
 
-* If this project helped you, please star it on GitHub! It encourages continued development.*
+* If this project helped you, please star it on GitHub! It encourages continued development.
