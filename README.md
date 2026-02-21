@@ -3,7 +3,7 @@
 > **A modern, async-ready Symfony 7 bundle for sending emails via Mailjet.**
 > Built with PHP 8.3, Symfony Messenger, HttpClient, Webhooks & 100% test coverage.
 
-[![CI](https://github.com/fabconejo/symfony-mailjet-bundle/actions/workflows/ci.yml/badge.svg)](https://github.com/fabconejo/symfony-mailjet-bundle/actions)
+[![CI](https://github.com/madjeek-web/symfony-mailjet-bundle/actions/workflows/ci.yml/badge.svg)](https://github.com/madjeek-web/symfony-mailjet-bundle/actions)
 [![PHPStan Level 9](https://img.shields.io/badge/PHPStan-level%209-brightgreen)](https://phpstan.org/)
 [![PHP 8.3+](https://img.shields.io/badge/PHP-8.3%2B-blue)](https://www.php.net/)
 [![Symfony 7](https://img.shields.io/badge/Symfony-7.x-black)](https://symfony.com/)
