@@ -18,7 +18,6 @@
     xsi:noNamespaceSchemaLocation="vendor/phpunit/phpunit/phpunit.xsd"
     bootstrap="vendor/autoload.php"
     colors="true"
-    verbose="true"
     failOnWarning="true"
     failOnRisky="true"
 >
@@ -27,11 +26,7 @@
         <testsuite name="Unit Tests">
             <directory>tests/Unit</directory>
         </testsuite>
-        <testsuite name="Integration Tests">
-            <directory>tests/Unit</directory>
-        </testsuite>
     </testsuites>
-
     <!-- Code Coverage: which source files to measure -->
     <source>
         <include>
@@ -42,7 +37,6 @@
             <file>src/MailjetBundle.php</file>
         </exclude>
     </source>
-
     <!-- PHP settings for tests -->
     <php>
         <!-- Display errors during tests -->
