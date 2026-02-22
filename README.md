@@ -143,7 +143,7 @@ This is a **Symfony Bundle** - a reusable plugin for PHP applications built with
 
 Great question! Here's why this matters right now :
 
-### 1. PHP is not dead — it's thriving
+### 1. PHP is booming
 PHP powers **~78% of websites** with a server-side language (including WordPress, Laravel apps, Symfony apps). The latest PHP 8.3 is fast, modern, and has features comparable to other languages. PHP 8.4 is already out.
 
 ### 2. Email is still the #1 communication channel
