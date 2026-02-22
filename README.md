@@ -712,7 +712,7 @@ We follow the **Symfony Coding Standards**. Run `composer cs-fix` before committ
 
 ## License
 
-This project is licensed under the **MIT License** one of the most permissive open-source licenses.
+This project is licensed under the MIT License one of the most permissive open-source licenses.
 
 ### What MIT means for you :
 
