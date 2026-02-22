@@ -21,7 +21,7 @@ It is published as open source, meaning it's freely accessible to developers wor
 
 It's a professional tool, generously shared with the community.
 
-What this project does, simply put :
+What this project does :
 
 Symfony is a tool for building websites in PHP. It can do a lot of things, but it doesn't know how to send emails via Mailjet. Mailjet is an external service, like a digital postal service.
 
