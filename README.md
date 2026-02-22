@@ -127,17 +127,7 @@ This is where **Mailjet** comes in. It's a **SaaS (Software as a Service)** plat
 
 This is a **Symfony Bundle** - a reusable plugin for PHP applications built with the [Symfony framework](https://symfony.com/).
 
-### The problem it solves
-
-The original Mailjet bundle for Symfony was written in **2015**. The PHP and Symfony ecosystem has changed enormously since then. That old bundle :
-
-- Used Symfony 2 (we're now on Symfony 7 - 5 major versions later!)
-- Used raw cURL calls (fragile, hard to test)
-- Had no async support (blocks your server while waiting for the API)
-- Had no type safety (PHP has added many type features since 2015)
-- Had almost no tests
-
-**This bundle is a complete rewrite** using every modern best practice available in 2026.
+**all the modern best practices available in 2026
 
 ### What this bundle does
 
