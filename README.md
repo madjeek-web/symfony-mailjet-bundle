@@ -72,8 +72,6 @@ It's like a universal power adapter: Symfony is the wall outlet, Mailjet is the 
 
 ## What is Mailjet ?
 
-### The short answer (for beginners)
-
 Imagine you've built a website where users can create an account. When they sign up, you want to send them a **welcome email**. Or maybe a **"forgot your password"** email with a reset link.
 
 You *could* try to set up your own email server... but that's incredibly complex. You'd need to handle :
