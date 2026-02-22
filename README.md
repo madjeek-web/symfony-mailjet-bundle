@@ -19,7 +19,7 @@ This project is a free toolkit that developers can download and integrate into t
 What makes this project professional is the quality of the work provided: the code is fully verified by automated tests (like a safety net), documented, and secured according to enterprise standards.
 It is published as open source, meaning it's freely accessible to developers worldwide, who can use it or contribute to it.
 
-It's a professional tool, generously shared with the community, demonstrating solid technical expertise, attention to detail, and the ability to produce clean, documented, and reusable work.
+It's a professional tool, generously shared with the community.
 
 What this project does, simply put :
 
