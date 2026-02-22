@@ -627,7 +627,7 @@ symfony-mailjet-bundle/
 
 ### Learning Objectives
 
-This project demonstrates several important programming concepts:
+This project demonstrates several important programming concepts :
 
 #### Object-Oriented Programming (OOP)
 - **Classes and Objects**: Every file is a class. `EmailMessage`, `EmailAddress`, `MailjetClient` are all classes.
@@ -681,7 +681,7 @@ This project can be used to teach:
 
 ## Contributing
 
-Contributions are welcome from **everyone** - whether you're a student learning PHP, a professional developer, or a teacher improving the documentation!
+Contributions are welcome from whether you're a student learning PHP, a professional developer, or a teacher improving the documentation.
 
 ### How to Contribute
 
@@ -701,7 +701,7 @@ Look for issues labeled `good first issue` on GitHub - these are small, well-def
 - Bug reports and fixes
 -  Documentation improvements
 -  More test cases
--  New features (open an issue first to discuss!)
+-  New features (open an issue first to discuss)
 -  Translations of comments to other languages
 
 ### Code Style
@@ -712,7 +712,7 @@ We follow the **Symfony Coding Standards**. Run `composer cs-fix` before committ
 
 ## License
 
-This project is licensed under the **MIT License** — one of the most permissive open-source licenses.
+This project is licensed under the **MIT License** one of the most permissive open-source licenses.
 
 ### What MIT means for you :
 
@@ -723,7 +723,7 @@ This project is licensed under the **MIT License** — one of the most permissiv
  The author provides NO warranty  
  You MUST include the copyright notice  
 
-Full license text: [https://opensource.org/licenses/MIT](https://opensource.org/licenses/MIT)
+Full license text : [https://opensource.org/licenses/MIT](https://opensource.org/licenses/MIT)
 
 ---
 
