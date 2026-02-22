@@ -179,7 +179,7 @@ With AI-assisted coding becoming common, the ability to write **tested, typed, m
 [Composer](https://getcomposer.org/) is the dependency manager for PHP. It's like `npm` for JavaScript or `pip` for Python.
 
 ```bash
-composer require fabconejo/symfony-mailjet-bundle
+composer require madjeek-web/symfony-mailjet-bundle
 ```
 
 If you're using **Symfony Flex** (included by default in new Symfony projects), the bundle will be automatically registered. If not, add it manually to `config/bundles.php`:
@@ -188,7 +188,7 @@ If you're using **Symfony Flex** (included by default in new Symfony projects), 
 // config/bundles.php
 return [
     // ... other bundles ...
-    Fabconejo\MailjetBundle\MailjetBundle::class => ['all' => true],
+    Madjeek-web\MailjetBundle\MailjetBundle::class => ['all' => true],
 ];
 ```
 
@@ -205,7 +205,7 @@ return [
 Open your project's `.env` file and add:
 
 ```dotenv
-###> fabconejo/symfony-mailjet-bundle ###
+###> madjeek-web/symfony-mailjet-bundle ###
 MAILJET_API_KEY=your_api_key_here
 MAILJET_SECRET_KEY=your_secret_key_here
 
@@ -215,7 +215,7 @@ MAILJET_SANDBOX_MODE=true
 
 # Optional: generate with: php -r "echo bin2hex(random_bytes(32));"
 MAILJET_WEBHOOK_SECRET=
-###< fabconejo/symfony-mailjet-bundle ###
+###< madjeek-web/symfony-mailjet-bundle ###
 ```
 
  > Make sure `.env` is in your `.gitignore` file! Never push real API keys to GitHub.
@@ -265,8 +265,8 @@ $email = EmailMessage::create()          // Start building
 ### Sending Immediately (Synchronous)
 
 ```php
-use Fabconejo\MailjetBundle\Contract\EmailSenderInterface;
-use Fabconejo\MailjetBundle\DTO\EmailMessage;
+use Madjeek-web\MailjetBundle\Contract\EmailSenderInterface;
+use Madjeek-web\MailjetBundle\DTO\EmailMessage;
 use Symfony\Component\HttpFoundation\Response;
 
 class PasswordResetController
@@ -379,7 +379,7 @@ framework:
 
         routing:
             # Route our email messages to the async transport
-            'Fabconejo\MailjetBundle\Message\SendEmailMessage': async
+            'Madjeek-web\MailjetBundle\Message\SendEmailMessage': async
 ```
 
 Add to your `.env`:
