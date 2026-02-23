@@ -249,7 +249,7 @@ That's it !
 The `EmailMessage` class uses a **fluent builder pattern**. You chain method calls to build up your email, then send it.
 
 ```php
-use Fabconejo\MailjetBundle\DTO\EmailMessage;
+use Madjeek\MailjetBundle\DTO\EmailMessage;
 
 $email = EmailMessage::create()          // Start building
     ->from('sender@example.com', 'My App')  // Who sends it
