@@ -732,7 +732,7 @@ Full license text : [https://opensource.org/licenses/MIT](https://opensource.org
 **Fabien Conéjéro**
 
 - GitHub: [@Fabien_Conéjéro](https://github.com/madjeek-web)
-- Repository: [github.com/fabconejo/symfony-mailjet-bundle](https://github.com//madjeek-web/symfony-mailjet-bundle)
+- Repository: [github.com/madjeek/symfony-mailjet-bundle](https://github.com//madjeek-web/symfony-mailjet-bundle)
 
 *Created on February 20, 2026*
 
