@@ -1,5 +1,5 @@
 {
-    "name": "fabconejo/symfony-mailjet-bundle",
+    "name": "madjeek-web/symfony-mailjet-bundle",
     "description": "A modern, async-ready Symfony 7 bundle for Mailjet — PHP 8.3, Messenger, HttpClient, Webhooks & full test coverage.",
     "type": "symfony-bundle",
     "keywords": [
@@ -13,18 +13,18 @@
         "mailer",
         "php8"
     ],
-    "homepage": "https://github.com/fabconejo/symfony-mailjet-bundle",
+    "homepage": "https://github.com/madjeek-web/symfony-mailjet-bundle",
     "license": "MIT",
     "authors": [
         {
             "name": "Fabien Conéjéro",
-            "homepage": "https://github.com/fabconejo",
+            "homepage": "https://github.com/madjeek-web",
             "role": "Lead Developer"
         }
     ],
     "support": {
-        "issues": "https://github.com/fabconejo/symfony-mailjet-bundle/issues",
-        "source": "https://github.com/fabconejo/symfony-mailjet-bundle"
+        "issues": "https://github.com/madjeek-web/symfony-mailjet-bundle/issues",
+        "source": "https://github.com/madjeek-web/symfony-mailjet-bundle"
     },
     "require": {
         "php": ">=8.3",
@@ -43,12 +43,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Fabconejo\\MailjetBundle\\": "src/"
+            "Madjeek\\MailjetBundle\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Fabconejo\\MailjetBundle\\Tests\\": "tests/"
+            "Madjeek\\MailjetBundle\\Tests\\": "tests/"
         }
     },
     "scripts": {
