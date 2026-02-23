@@ -763,3 +763,4 @@ composer require madjeek-web/symfony-mailjet-bundle
 * The package is published on Packagist (https://packagist.org)
 * GitHub webhook configuration for automatic update : Yes
 * Creation of the release v1.0.0 : Yes
+* The package is published on Packagist (https://packagist.org/packages/madjeek-web/symfony-mailjet-bundle)
