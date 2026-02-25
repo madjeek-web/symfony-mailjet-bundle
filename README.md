@@ -90,7 +90,7 @@ Symfony is a letter writer: It's your PHP code that decides WHEN to send an emai
 So the real question is: "Can Symfony entrust its emails to Mailjet so that it sends them out ?"
 Answer : YES, 100%. Symfony prepares the email content (the text, the recipient), then it gives it to Mailjet which takes care of fast and reliable shipping. It's like if you wrote a letter (Symfony) and gave it to FedEx (Mailjet) to send it super fast everywhere in the world, rather than putting it yourself in a neighborhood mailbox.
 
-You don't choose between Symfony and Mailjet. You choose to use them TOGETHER :
+You don't choose between Symfony and Mailjet. You choose to use them together :
 
 Symfony = your personal assistant who writes the emails automatically
 
@@ -115,7 +115,7 @@ text
 Then, Symfony will replace the words in brackets with the real data of each person.
 
 Based on what criteria does Symfony decide the content?
-Symfony looks in its database (its big address book with all the info) and it chooses according to what YOU asked it to check.
+Symfony looks in its database (its big address book with all the info) and it chooses according to what you asked it to check.
 
 Criteria #1: The PERSON'S PROFILE
 Symfony looks for the info stored about the user :
@@ -128,8 +128,10 @@ Their city → to give info about an event near them
 
 Their previous purchases → to recommend similar products
 
-Criteria #2: The ACTION that the person just did
-This is the most important criterion! Symfony decides to send an email when an event happens:
+Criteria #2: The action that the person just did
+This is the most important criterion ! 
+
+Symfony decides to send an email when an event happens :
 
 Sign-up → Automatic welcome email
 
@@ -188,7 +190,7 @@ BUT... the big limits of Mailjet all by itself
 This is where Symfony becomes essential
 Symfony is THE LINK between your site and Mailjet.
 
-Your site (with Symfony) sees EVERYTHING :
+Your site (with Symfony) sees everything :
 
 - It sees Thomas sign up
 
@@ -212,7 +214,7 @@ Your site is very small
 
 You just want to send basic newsletters
 
-You accept having to configure EVERYTHING manually on their site
+You accept having to configure everything manually on their site
 
 But as soon as your site becomes a bit serious (automatic sign-ups, e-commerce, games with scores...), you REALLY need Symfony to be the conductor.
 
