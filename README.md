@@ -95,7 +95,7 @@ Mailjet is just a shipping service: It's like the Post Office or FedEx. Mailjet 
 Symfony is a letter writer: It's your PHP code that decides when to send an email, to whom, with which text. For example : "When a user signs up, create a welcome email with their first name."
 
 So the real question is: "Can Symfony entrust its emails to Mailjet so that it sends them out ?"
-Answer : YES, 100%. Symfony prepares the email content (the text, the recipient), then it gives it to Mailjet which takes care of fast and reliable shipping. It's like if you wrote a letter (Symfony) and gave it to FedEx (Mailjet) to send it super fast everywhere in the world, rather than putting it yourself in a neighborhood mailbox.
+Answer : Yes, 100 %. Symfony prepares the email content (the text, the recipient), then it gives it to Mailjet which takes care of fast and reliable shipping. It's like if you wrote a letter (Symfony) and gave it to FedEx (Mailjet) to send it super fast everywhere in the world, rather than putting it yourself in a neighborhood mailbox.
 
 You don't choose between Symfony and Mailjet. You choose to use them together :
 
@@ -113,12 +113,12 @@ Symfony does not write emails all by itself like magic
 First super important thing: Symfony is not an artificial intelligence that invents the email text. It's not ChatGPT ! Symfony does what vous programmed it to do.
 
 How does it work concretely ?
-Imagine that Symfony is your super organized assistant but who only repeats what you taught it. It has letter templates (we call them templates) that YOU created in advance.
+Imagine that Symfony is your super organized assistant but who only repeats what you taught it. It has letter templates (we call them templates) that you created in advance.
 
 Example of a template that you write in your code :
 
 ```text
-"Hello [FIRSTNAME], thank you for ordering [PRODUCT] on our site!"
+"Hello [FIRSTNAME], thank you for ordering [PRODUCT] on our site !"
 ```
 
 Then, Symfony will replace the words in brackets with the real data of each person.
