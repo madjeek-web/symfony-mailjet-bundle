@@ -76,6 +76,8 @@ It's like a universal power adapter: Symfony is the wall outlet, Mailjet is the 
 
 ---
 
+<img src="https://github.com/madjeek-web/symfony-mailjet-bundle/raw/main/screen_demo_mailjet.jpg" alt="symfony mailjet bundle page demo" width="100%" height="100%">
+
 ## What is Mailjet ?
 
 Imagine you've built a website where users can create an account. When they sign up, you want to send them a **welcome email**. Or maybe a **"forgot your password"** email with a reset link.
