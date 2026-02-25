@@ -65,7 +65,7 @@ The real purpose: To ensure that your emails actually arrive in the inbox (not i
 
 It's a bit like if you wanted to deliver pizzas. Your personal email inbox is your bike: it's perfect for bringing a pizza to your friend who lives nearby. But if suddenly 500 people order pizzas at the same time, you're not going to make it with your bike, you're going to be overwhelmed and the pizzas will arrive cold or not at all.
 
-Symbole with Mailjet, it's like having a fleet of scooters with professional delivery drivers. They can deliver hundreds of orders at once, very quickly, and on top of that they tell you precisely who received their pizza, who ate it, and who wasn't home. Your little personal bike can't do all that !
+Symbole with Mailjet, it's like having a fleet of scooters with professional delivery drivers. They can deliver hundreds of orders at once, very quickly, and on top of that they tell you precisely who received their pizza, who ate it, and who wasn't home. Your little personal bike can't do all that.
 
 ---
 
