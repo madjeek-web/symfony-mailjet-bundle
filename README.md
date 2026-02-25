@@ -44,15 +44,15 @@ And the email is sent. The project takes care of everything else behind the scen
 It's like a universal power adapter: Symfony is the wall outlet, Mailjet is the device, and this bundle is the adapter that connects them properly.
 
 ```
-<p>&amp;</p>
+<p></p>
 
 <img src="https://github.com/madjeek-web/symfony-mailjet-bundle/raw/main/Framework-Symfony-bg-black.png" alt="symfony mailjet bundle page demo" width="100%" height="100%">
 
-<p>&amp;</p>
+<p></p>
 
 ### Why send emails from Symfony rather than with your regular email service ?
 
-<p>&amp;</p>
+<p></p>
 
 When you send an email from your Gmail or Outlook inbox, you're using a human interface: you write a message, you click "Send", and one single person receives it. It's manual.
 
