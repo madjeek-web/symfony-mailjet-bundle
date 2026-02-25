@@ -76,7 +76,7 @@ It's like a universal power adapter: Symfony is the wall outlet, Mailjet is the 
 
 ---
 
-<img src="https://github.com/madjeek-web/symfony-mailjet-bundle/raw/main/screen_demo_mailjet.jpg" alt="symfony mailjet bundle page demo" width="100%" height="100%">
+<img src="https://github.com/madjeek-web/symfony-mailjet-bundle/raw/main/mailjet-full-logo-png.png" alt="mailjet bundle full img" width="100%" height="100%">
 
 ## What is Mailjet ?
 
