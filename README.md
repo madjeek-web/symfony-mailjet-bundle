@@ -87,7 +87,7 @@ Mailjet is just a shipping service: It's like the Post Office or FedEx. Mailjet 
 Symfony is a letter writer: It's your PHP code that decides WHEN to send an email, TO WHOM, with WHICH TEXT. For example: "When a user signs up, create a welcome email with their first name."
 
 So the real question is: "Can Symfony entrust its emails to Mailjet so that it sends them out ?"
-Answer: YES, 100%. Symfony prepares the email content (the text, the recipient), then it gives it to Mailjet which takes care of fast and reliable shipping. It's like if you wrote a letter (Symfony) and gave it to FedEx (Mailjet) to send it super fast everywhere in the world, rather than putting it yourself in a neighborhood mailbox.
+Answer : YES, 100%. Symfony prepares the email content (the text, the recipient), then it gives it to Mailjet which takes care of fast and reliable shipping. It's like if you wrote a letter (Symfony) and gave it to FedEx (Mailjet) to send it super fast everywhere in the world, rather than putting it yourself in a neighborhood mailbox.
 
 You don't choose between Symfony and Mailjet. You choose to use them TOGETHER :
 
@@ -96,12 +96,12 @@ Symfony = your personal assistant who writes the emails automatically
 Mailjet = your ultra-fast delivery service
 
 Symfony = your personal assistant who writes the emails automatically. ok but based on what criteria does it write the emails? randomly, according to the people, according to the profiles, explain all the details simply, for 16 year olds.
-Excellent! Now we get into the real functioning. Here's how Symfony decides what to write, simply.
+Excellent ! Now we get into the real functioning. Here's how Symfony decides what to write, simply.
 
 Symfony does NOT write emails all by itself like magic
-First super important thing: Symfony is not an artificial intelligence that invents the email text. It's not ChatGPT! Symfony does what YOU programmed it to do.
+First super important thing: Symfony is not an artificial intelligence that invents the email text. It's not ChatGPT ! Symfony does what YOU programmed it to do.
 
-How does it work concretely?
+How does it work concretely ?
 Imagine that Symfony is your super organized assistant but who only repeats what you taught it. It has letter templates (we call them templates) that YOU created in advance.
 
 Example of a template that you write in your code:
@@ -114,7 +114,7 @@ Based on what criteria does Symfony decide the content?
 Symfony looks in its database (its big address book with all the info) and it chooses according to what YOU asked it to check.
 
 Criteria #1: The PERSON'S PROFILE
-Symfony looks for the info stored about the user:
+Symfony looks for the info stored about the user :
 
 Their first name → to personalize "Hello Thomas" or "Hello Léa"
 
@@ -133,7 +133,7 @@ Purchase validated → Confirmation email with the list of items
 
 Forgotten password → Email with a link to reset it
 
-Abandoned cart (the site detects that someone filled their cart but didn't pay) → Email like "Hey, you forgot your items!"
+Abandoned cart (the site detects that someone filled their cart but didn't pay) → Email like "Hey, you forgot your items !"
 
 Birthday (if the date is in the database) → Email with a promo code
 
@@ -149,60 +149,60 @@ Situation: Thomas (16 years old, fan of soccer games) signs up on your site.
 
 You programmed: "When someone signs up, send the welcome email"
 
-Symfony detects: "Alert! Thomas just signed up!"
+Symfony detects: "Alert ! Thomas just signed up!"
 
 Symfony looks in its database: "He likes soccer, he's 16 years old"
 
 Symfony takes the email template you created: "Welcome [FIRSTNAME]! Discover our favorite games for [AGE] year olds!"
 
-Symfony replaces: "Welcome Thomas! Discover our favorite games for 16 year olds!"
+Symfony replaces: "Welcome Thomas! Discover our favorite games for 16 year olds !"
 
 Symfony hands the email to Mailjet which sends it to Thomas
 
 So YOU are the boss! You decide everything: when to send, to whom, and which template to use. Symfony executes your orders at lightning speed.
 
-so mailjet cannot do that itself?
-Can Mailjet do it all by itself?
-Short answer: YES and NO. This is where it gets interesting!
+so mailjet cannot do that itself ?
+Can Mailjet do it all by itself ?
+Short answer: YES and NO. This is where it gets interesting !
 
 What Mailjet can do ALL BY ITSELF
 Mailjet has its own little assistants (without you needing Symfony). It can:
 
-✅ Send scheduled emails: "Every Monday at 10am, send this newsletter"
-✅ Do simple automations: "When someone subscribes to my list, send them the welcome email"
-✅ Segment according to profiles: "Show this block if the person is a boy, this other one if it's a girl"
+- Send scheduled emails: "Every Monday at 10am, send this newsletter"
+- Do simple automations: "When someone subscribes to my list, send them the welcome email"
+- Segment according to profiles: "Show this block if the person is a boy, this other one if it's a girl"
 
 How does it do it? Mailjet has a visual interface with "blocks" to click. You don't write code, you drag and drop to create scenarios.
 
 BUT... the big limits of Mailjet all by itself
-❌ It does NOT know your site: Mailjet doesn't know that a user just bought a soccer jersey on YOUR site. It doesn't see that someone filled a cart. It is blind to what happens elsewhere than on its platform.
+- It does NOT know your site: Mailjet doesn't know that a user just bought a soccer jersey on YOUR site. It doesn't see that someone filled a cart. It is blind to what happens elsewhere than on its platform.
 
-❌ It cannot react instantly: If Thomas signs up on your site at 3am, how would Mailjet know? Someone would have to go on Mailjet to trigger the send.
+- It cannot react instantly: If Thomas signs up on your site at 3am, how would Mailjet know? Someone would have to go on Mailjet to trigger the send.
 
-❌ It doesn't know all your data: Mailjet has its own small contact list. But it doesn't know Thomas's score on your game, his level, his friends, his complete history on YOUR site.
+- It doesn't know all your data: Mailjet has its own small contact list. But it doesn't know Thomas's score on your game, his level, his friends, his complete history on YOUR site.
 
 This is where Symfony becomes essential
 Symfony is THE LINK between your site and Mailjet.
 
-Your site (with Symfony) sees EVERYTHING:
+Your site (with Symfony) sees EVERYTHING :
 
-👀 It sees Thomas sign up
+- It sees Thomas sign up
 
-👀 It sees Thomas buy
+- It sees Thomas buy
 
-👀 It sees Thomas reach level 10
+- It sees Thomas reach level 10
 
-👀 It sees Thomas lose his password
+- It sees Thomas lose his password
 
-Each time, Symfony says: "Hey Mailjet, QUICK send this special email to Thomas!"
+Each time, Symfony says: "Hey Mailjet, QUICK send this special email to Thomas !"
 
 The restaurant analogy
 Mailjet by itself = A meal delivery service. You can tell them: "Deliver a pizza to 15 Lilas Street every Friday evening." But you have to give them the address and tell them what to deliver.
 
 Symfony + Mailjet = A full restaurant. Symfony is the chef in the kitchen and the waiter who takes orders. As soon as a customer orders, the waiter (Symfony) shouts to the kitchen (your code), and the kitchen calls the delivery person (Mailjet) to dispatch the dish immediately.
 
-Why not do everything with Mailjet then?
-You COULD do everything with Mailjet IF:
+Why not do everything with Mailjet then ?
+You COULD do everything with Mailjet IF :
 
 Your site is very small
 
@@ -212,7 +212,41 @@ You accept having to configure EVERYTHING manually on their site
 
 But as soon as your site becomes a bit serious (automatic sign-ups, e-commerce, games with scores...), you REALLY need Symfony to be the conductor.
 
-In short: Mailjet is a great delivery person. But it's Symfony who knows WHEN to call the delivery person and WHAT to give them to deliver.
+In short : Mailjet is a great delivery person. But it's Symfony who knows WHEN to call the delivery person and WHAT to give them to deliver.
+
+
+
+## Can you send emails in Symfony with Mailjet ?
+
+Yes, absolutely. And it's even one of the main uses for which Mailjet is designed.
+
+On their site, they say it's "built for devs" and that you can "Integrate with our API in minutes and start sending". An API is a language that allows your Symfony code (PHP) to talk directly to Mailjet's servers to tell it to send an email.
+
+It's not Mailjet "or" Symfony, it's Mailjet "and" Symfony working together.
+
+Mailjet by itself vs. Mailjet + Symfony: which to choose ?
+Imagine that Mailjet is an ultra-modern factory that prints and ships letters (emails) to millions of addresses. It has super fast machines, quality paper, and it knows exactly which letter was sent, read, or thrown away.
+
+If you use Mailjet by itself (without Symfony) :
+It's like going to that factory yourself with a list of names and addresses on a piece of paper. You use their on-site computer to type each letter one by one (via their "drag-and-drop" interface for newsletters). It's perfect for one-off marketing campaigns that you prepare by hand, like a monthly newsletter for your video game club.
+
+If you combine Symfony and Mailjet :
+Then, it's your website (built with Symfony) that becomes the conductor. It tells the Mailjet factory: "When a new user signs up, automatically send them this welcome email" or "When an order is validated, send the confirmation". Symfony handles the logic and the triggering (WHEN and WHY to send), and Mailjet handles the ultra-fast shipping and tracking (HOW to send it and knowing if it arrived properly).
+
+Why is it BETTER to combine them ?
+It's automated and reliable: You don't need to go to the Mailjet site at 3 a.m. to send 100 order confirmation emails. Symfony does it by itself, and Mailjet ensures they arrive quickly.
+
+It's more powerful: Symfony can send personalized emails with data from your database (e.g., "Congratulations [Player Name] for your score of [Level]!"). It's much stronger than writing them all by hand in Mailjet.
+
+You keep Mailjet's power: Even by going through Symfony, you benefit from all of Mailjet's great tools: statistics (who opened the email), deliverability (not in spam), and contact management.
+
+Why would it NOT be BETTER (or simpler) ?
+You need to know how to code: For Symfony to talk to Mailjet, you have to write PHP code, install libraries, and manage errors. It's a bit more work at the beginning.
+
+For very simple sends: If you just need to send a newsletter to your list from time to time, directly using Mailjet's "drag-and-drop" editor is much simpler and faster. You don't need a developer for that. The Mailjet site is made for that, with templates and tools for "marketers".
+
+In summary : The Symfony + Mailjet combination is the Formula 1 for websites that need to send emails automatically, in a personalized way, and on a large scale. Using Mailjet by itself is the practical scooter for creating nice newsletters without the headache. The choice depends on what you want to build !
+
 
 
 
