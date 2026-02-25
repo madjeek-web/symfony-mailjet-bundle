@@ -136,30 +136,30 @@ This is where **Mailjet** comes in. It's a **SaaS (Software as a Service)** plat
 - Send one-by-one personalized campaigns with a Twig template per recipient
 - All without managing a mail server, just an API key
 
-### +
+### + + +
 Mailjet is a comprehensive platform that combines sending marketing and transactional emails, designed to be used by both developers and marketing teams.
 
 Here is what it allows you to do concretely:
 
-1. Create professional emails easily
+Create professional emails easily
 Thanks to its drag-and-drop editor, you can design responsive emails, forms, and landing pages, even without technical skills. You start from a blank page, a pre-designed template, or use AI to generate templates and write content adapted to your brand (tone, length, language).
 
-2. Manage and collaborate as a team
+Manage and collaborate as a team
 The platform includes collaboration tools to create emails with multiple people, with permission systems to protect elements of your brand guidelines. You can start alone and then invite colleagues as needed.
 
-3. Personalize and automate sends
+Personalize and automate sends
 You can segment your contacts by interests, send personalized messages (e.g., different offers based on recipient behavior) and automate journeys like onboarding or re-engagement, via a visual builder.
 
-4. Improve deliverability
+Improve deliverability
 So that your emails actually arrive in the inbox (and not in spam), Mailjet offers address validation tools upstream, a preview of email rendering, and real-time performance tracking (open rates, clicks, etc.) with filtering of non-human interactions.
 
-5. Benefit from expert support at scale
+Benefit from expert support at scale
 For high sending volumes, a dedicated expert supports you with configuration, best practices, and problem resolution, with personalized follow-up.
 
-6. Integrate with your other tools
+Integrate with your other tools
 The platform easily connects to your other software (CRM, CMS, e-commerce) via preconfigured integrations or its API, which developers can use to program automated sends.
 
-7. Optimize with AI
+Optimize with AI
 AI assistants help generate custom templates, adapt the tone of messages (informal or formal) in 21 languages, and suggest text lengths to improve performance.
 
 In summary, Mailjet is a complete service that manages the entire email chain: from visual creation to technical deliverability, through marketing automation and results analysis. It is aimed as much at marketing teams as at developers who, as with the Symfony bundle, use it to send emails programmatically.
