@@ -929,18 +929,18 @@ This project can be used to teach:
 
 1. **Week 1**: PHP OOP basics using `EmailAddress` as an example of a simple class
 2. **Week 2**: Interfaces and dependency injection using the service layer
-3. **Week 3**: Testing with PHPUnit — run the existing tests, then write new ones
-4. **Week 4**: HTTP APIs — how `MailjetClient` communicates with external services
-5. **Week 5**: Async programming — Symfony Messenger, queues, workers
-6. **Week 6**: Security — API key management, webhook verification
+3. **Week 3**: Testing with PHPUnit / run the existing tests, then write new ones
+4. **Week 4**: HTTP APIs / how `MailjetClient` communicates with external services
+5. **Week 5**: Async programming / Symfony Messenger, queues, workers
+6. **Week 6**: Security / API key management, webhook verification
 
 ### Workshop Exercise Ideas
 
-1. **Add CC/BCC validation**: Verify that BCC recipients aren't also in the TO list
-2. **Add Twig integration**: Render a Twig template as the email body
-3. **Add email templates**: Support Mailjet's server-side template variables
-4. **Build a test listener**: Create an `EmailSentEvent` listener that logs to a database
-5. **Add retry logic**: Automatically retry when Mailjet returns a 429 (rate limit) error
+1. **Add CC/BCC validation** : Verify that BCC recipients aren't also in the TO list
+2. **Add Twig integration** : Render a Twig template as the email body
+3. **Add email templates** : Support Mailjet's server-side template variables
+4. **Build a test listener** : Create an `EmailSentEvent` listener that logs to a database
+5. **Add retry logic** : Automatically retry when Mailjet returns a 429 (rate limit) error
 
 ---
 
