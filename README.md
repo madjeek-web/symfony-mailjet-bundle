@@ -68,9 +68,10 @@ It's a bit like if you wanted to deliver pizzas. Your personal email inbox is yo
 Symbole with Mailjet, it's like having a fleet of scooters with professional delivery drivers. They can deliver hundreds of orders at once, very quickly, and on top of that they tell you precisely who received their pizza, who ate it, and who wasn't home. Your little personal bike can't do all that.
 
 
-.
+
 
 ## The right question to ask
+
 The question "Can you send emails in Symfony with Mailjet?" doesn't really make sense, a bit like asking: " Can you cook pasta with a pressure cooker ? "
 
 Actually, both options are possible :
