@@ -85,7 +85,7 @@ But the pressure cooker won't cook the pasta all by itself for you
 Here's the right way to understand
 Mailjet is just a shipping service: It's like the Post Office or FedEx. Mailjet has super powerful servers that can send millions of emails very fast, with precise statistics, while avoiding spam.
 
-Symfony is a letter writer: It's your PHP code that decides WHEN to send an email, TO WHOM, with WHICH TEXT. For example: "When a user signs up, create a welcome email with their first name."
+Symfony is a letter writer: It's your PHP code that decides when to send an email, to whom, with which text. For example : "When a user signs up, create a welcome email with their first name."
 
 So the real question is: "Can Symfony entrust its emails to Mailjet so that it sends them out ?"
 Answer : YES, 100%. Symfony prepares the email content (the text, the recipient), then it gives it to Mailjet which takes care of fast and reliable shipping. It's like if you wrote a letter (Symfony) and gave it to FedEx (Mailjet) to send it super fast everywhere in the world, rather than putting it yourself in a neighborhood mailbox.
