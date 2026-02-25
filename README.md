@@ -1,6 +1,6 @@
 <p>
     <img src="https://github.com/madjeek-web/symfony-mailjet-bundle/raw/main/symfony-framework.webp" hspace="10" >
-    <img src="https://picsum.photos/100/100" hspace="10" >
+    <img src="https://github.com/madjeek-web/symfony-mailjet-bundle/raw/main/y-symfony.jpg" hspace="10" >
 </p>
 
 
