@@ -1,3 +1,9 @@
+<p>
+    <img src="https://picsum.photos/100/100" hspace="10" >
+    <img src="https://picsum.photos/100/100" hspace="10" >
+</p>
+
+
 # symfony-mailjet-bundle
 
 > **A modern, async-ready Symfony 7 bundle for sending emails via Mailjet.**
