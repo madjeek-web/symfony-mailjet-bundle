@@ -96,11 +96,14 @@ Symfony = your personal assistant who writes the emails automatically
 
 Mailjet = your ultra-fast delivery service
 
-Symfony = your personal assistant who writes the emails automatically. ok but based on what criteria does it write the emails? randomly, according to the people, according to the profiles, explain all the details simply, for 16 year olds.
-Excellent ! Now we get into the real functioning. Here's how Symfony decides what to write, simply.
+Symfony = your personal assistant who writes the emails automatically. 
 
-Symfony does NOT write emails all by itself like magic
-First super important thing: Symfony is not an artificial intelligence that invents the email text. It's not ChatGPT ! Symfony does what YOU programmed it to do.
+Ok but based on what criteria does it write the emails? randomly, according to the people, according to the profiles ? 
+
+Now we get into the real functioning. Here's how Symfony decides what to write, simply.
+
+Symfony does not write emails all by itself like magic
+First super important thing: Symfony is not an artificial intelligence that invents the email text. It's not ChatGPT ! Symfony does what vous programmed it to do.
 
 How does it work concretely ?
 Imagine that Symfony is your super organized assistant but who only repeats what you taught it. It has letter templates (we call them templates) that YOU created in advance.
