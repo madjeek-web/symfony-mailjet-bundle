@@ -131,7 +131,7 @@ This is where **Mailjet** comes in. It's a **SaaS (Software as a Service)** plat
 
 ---
 
-<img src="https://github.com/madjeek-web/symfony-mailjet-bundle/raw/main/screen_demo_mailjet.jpg" alt="symfony mailjet bundle page demo" width="100%" height="100%">
+<img src="https://github.com/madjeek-web/symfony-mailjet-bundle/raw/main/symfony_01.png" alt="symfony mailjet black cover img 01" width="100%" height="100%">
 
 ## What is this project ?
 
