@@ -44,15 +44,15 @@ And the email is sent. The project takes care of everything else behind the scen
 It's like a universal power adapter: Symfony is the wall outlet, Mailjet is the device, and this bundle is the adapter that connects them properly.
 
 ```
-<p></p>
+<br>
 
 <img src="https://github.com/madjeek-web/symfony-mailjet-bundle/raw/main/Framework-Symfony-bg-black.png" alt="symfony mailjet bundle page demo" width="100%" height="100%">
 
-<p></p>
+<br>
 
 ### Why send emails from Symfony rather than with your regular email service ?
 
-<p></p>
+<br>
 
 When you send an email from your Gmail or Outlook inbox, you're using a human interface: you write a message, you click "Send", and one single person receives it. It's manual.
 
@@ -115,16 +115,18 @@ First super important thing: Symfony is not an artificial intelligence that inve
 How does it work concretely ?
 Imagine that Symfony is your super organized assistant but who only repeats what you taught it. It has letter templates (we call them templates) that YOU created in advance.
 
-Example of a template that you write in your code:
+Example of a template that you write in your code :
 
-text
+```text
 "Hello [FIRSTNAME], thank you for ordering [PRODUCT] on our site!"
+```
+
 Then, Symfony will replace the words in brackets with the real data of each person.
 
-Based on what criteria does Symfony decide the content?
+Based on what criteria does Symfony decide the content ?
 Symfony looks in its database (its big address book with all the info) and it chooses according to what you asked it to check.
 
-Criteria #1: The PERSON'S PROFILE
+Criteria #1 : The PERSON'S PROFILE
 Symfony looks for the info stored about the user :
 
 Their first name → to personalize "Hello Thomas" or "Hello Léa"
@@ -135,7 +137,7 @@ Their city → to give info about an event near them
 
 Their previous purchases → to recommend similar products
 
-Criteria #2: The action that the person just did
+Criteria #2 : The action that the person just did
 This is the most important criterion ! 
 
 Symfony decides to send an email when an event happens :
