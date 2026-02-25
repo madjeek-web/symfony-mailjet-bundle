@@ -45,6 +45,25 @@ It's like a universal power adapter: Symfony is the wall outlet, Mailjet is the 
 
 ```
 
+Why send emails from Symfony rather than with your regular email service ?
+
+When you send an email from your Gmail or Outlook inbox, you're using a human interface: you write a message, you click "Send", and one single person receives it. It's manual.
+
+But when your website needs to automatically send 100 order confirmation emails in the middle of the night, or 10,000 personalized newsletters, your small regular email service can't keep up. It will:
+
+Limit the number of sends (often 500 per day max)
+
+Filter your emails as spam if you send too many
+
+Crash if too many people sign up at the same time
+
+The fundamental difference: With a regular email service, it's a human who sends. With Symfony + Mailjet, it's the code that sends, in an automated, industrialized, and reliable way.
+
+Symfony is not going to "open Gmail" and click on buttons. It will communicate directly with Mailjet's servers via an API (a machine-to-machine language) to deliver hundreds of emails in one second, with precise statistics: who opened, who clicked, who didn't receive...
+
+The real purpose: To ensure that your emails actually arrive in the inbox (not in spam), that it's reliable 24/7, and that your site remains fast even when sending tons of emails. Your personal email service is designed for you to communicate yourself, not to do the work of an industrial mail carrier for your website.
+
+
 ---
 
 ## Demo Page
