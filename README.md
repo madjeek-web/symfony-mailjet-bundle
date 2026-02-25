@@ -3,8 +3,11 @@
     <img src="https://github.com/madjeek-web/symfony-mailjet-bundle/raw/main/y-symfony.jpg" hspace="10" >
 </p>
 
+<br>
 
 # symfony-mailjet-bundle
+
+<br>
 
 > **A modern, async-ready Symfony 7 bundle for sending emails via Mailjet.**
 > Built with PHP 8.3, Symfony Messenger, HttpClient, Webhooks & 100% test coverage.
@@ -17,7 +20,11 @@
 
 ---
 
+<br>
+
 ### symfony-mailjet-bundle, what is it exactly ?
+
+<br>
 
 When you use a website and receive an automated email like "Welcome!", "Your order is confirmed", or "Reset your password"... someone had to program that.
 This project is a free toolkit that developers can download and integrate into their application to send these emails automatically, through a specialized service called Mailjet.
