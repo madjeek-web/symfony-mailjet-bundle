@@ -44,6 +44,7 @@ And the email is sent. The project takes care of everything else behind the scen
 It's like a universal power adapter: Symfony is the wall outlet, Mailjet is the device, and this bundle is the adapter that connects them properly.
 
 ```
+<img src="https://github.com/madjeek-web/symfony-mailjet-bundle/raw/main/screen_demo_mailjet.jpg" alt="symfony mailjet bundle page demo" width="100%" height="100%">
 
 ### Why send emails from Symfony rather than with your regular email service ?
 
