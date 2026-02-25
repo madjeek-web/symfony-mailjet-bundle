@@ -143,7 +143,7 @@ Abandoned cart (the site detects that someone filled their cart but didn't pay) 
 
 Birthday (if the date is in the database) → Email with a promo code
 
-Criteria #3: The PERSON'S BEHAVIOR (advanced version)
+Criteria #3 : The PERSON'S BEHAVIOR (advanced version)
 With tools like Mailjet, Symfony can even react to what people did BEFORE:
 
 "They didn't open our last 3 emails" → we send them a different email to wake them up
@@ -151,15 +151,15 @@ With tools like Mailjet, Symfony can even react to what people did BEFORE:
 "They clicked on the sneakers but didn't buy" → we send them a special promo on sneakers
 
 Summary with a concrete example
-Situation: Thomas (16 years old, fan of soccer games) signs up on your site.
+Situation : Thomas (16 years old, fan of soccer games) signs up on your site.
 
 You programmed: "When someone signs up, send the welcome email"
 
-Symfony detects: "Alert ! Thomas just signed up!"
+Symfony detects: "Alert ! Thomas just signed up !"
 
 Symfony looks in its database: "He likes soccer, he's 16 years old"
 
-Symfony takes the email template you created: "Welcome [FIRSTNAME]! Discover our favorite games for [AGE] year olds!"
+Symfony takes the email template you created : "Welcome [FIRSTNAME]! Discover our favorite games for [AGE] year olds!"
 
 Symfony replaces: "Welcome Thomas! Discover our favorite games for 16 year olds !"
 
@@ -175,20 +175,20 @@ What Mailjet can do ALL BY ITSELF
 Mailjet has its own little assistants (without you needing Symfony). It can:
 
 - Send scheduled emails: "Every Monday at 10am, send this newsletter"
-- Do simple automations: "When someone subscribes to my list, send them the welcome email"
-- Segment according to profiles: "Show this block if the person is a boy, this other one if it's a girl"
+- Do simple automations : "When someone subscribes to my list, send them the welcome email"
+- Segment according to profiles : "Show this block if the person is a boy, this other one if it's a girl"
 
 How does it do it? Mailjet has a visual interface with "blocks" to click. You don't write code, you drag and drop to create scenarios.
 
-BUT... the big limits of Mailjet all by itself
-- It does NOT know your site: Mailjet doesn't know that a user just bought a soccer jersey on YOUR site. It doesn't see that someone filled a cart. It is blind to what happens elsewhere than on its platform.
+But... the big limits of Mailjet all by itself
+- It does NOT know your site: Mailjet doesn't know that a user just bought a soccer jersey on your site. It doesn't see that someone filled a cart. It is blind to what happens elsewhere than on its platform.
 
 - It cannot react instantly: If Thomas signs up on your site at 3am, how would Mailjet know? Someone would have to go on Mailjet to trigger the send.
 
-- It doesn't know all your data: Mailjet has its own small contact list. But it doesn't know Thomas's score on your game, his level, his friends, his complete history on YOUR site.
+- It doesn't know all your data: Mailjet has its own small contact list. But it doesn't know Thomas's score on your game, his level, his friends, his complete history on your site.
 
 This is where Symfony becomes essential
-Symfony is THE LINK between your site and Mailjet.
+Symfony is the link between your site and Mailjet.
 
 Your site (with Symfony) sees everything :
 
@@ -200,7 +200,7 @@ Your site (with Symfony) sees everything :
 
 - It sees Thomas lose his password
 
-Each time, Symfony says: "Hey Mailjet, QUICK send this special email to Thomas !"
+Each time, Symfony says: "Hey Mailjet, quick send this special email to Thomas !"
 
 The restaurant analogy
 Mailjet by itself = A meal delivery service. You can tell them: "Deliver a pizza to 15 Lilas Street every Friday evening." But you have to give them the address and tell them what to deliver.
@@ -208,7 +208,7 @@ Mailjet by itself = A meal delivery service. You can tell them: "Deliver a pizza
 Symfony + Mailjet = A full restaurant. Symfony is the chef in the kitchen and the waiter who takes orders. As soon as a customer orders, the waiter (Symfony) shouts to the kitchen (your code), and the kitchen calls the delivery person (Mailjet) to dispatch the dish immediately.
 
 Why not do everything with Mailjet then ?
-You COULD do everything with Mailjet IF :
+You could do everything with Mailjet IF :
 
 Your site is very small
 
@@ -216,9 +216,9 @@ You just want to send basic newsletters
 
 You accept having to configure everything manually on their site
 
-But as soon as your site becomes a bit serious (automatic sign-ups, e-commerce, games with scores...), you REALLY need Symfony to be the conductor.
+But as soon as your site becomes a bit serious (automatic sign-ups, e-commerce, games with scores...), you really need Symfony to be the conductor.
 
-In short : Mailjet is a great delivery person. But it's Symfony who knows WHEN to call the delivery person and WHAT to give them to deliver.
+In short : Mailjet is a great delivery person. But it's Symfony who knows when to call the delivery person and WHAT to give them to deliver.
 
 
 
@@ -239,14 +239,14 @@ It's like going to that factory yourself with a list of names and addresses on a
 If you combine Symfony and Mailjet :
 Then, it's your website (built with Symfony) that becomes the conductor. It tells the Mailjet factory: "When a new user signs up, automatically send them this welcome email" or "When an order is validated, send the confirmation". Symfony handles the logic and the triggering (WHEN and WHY to send), and Mailjet handles the ultra-fast shipping and tracking (HOW to send it and knowing if it arrived properly).
 
-Why is it BETTER to combine them ?
+Why is it better to combine them ?
 It's automated and reliable: You don't need to go to the Mailjet site at 3 a.m. to send 100 order confirmation emails. Symfony does it by itself, and Mailjet ensures they arrive quickly.
 
 It's more powerful: Symfony can send personalized emails with data from your database (e.g., "Congratulations [Player Name] for your score of [Level]!"). It's much stronger than writing them all by hand in Mailjet.
 
 You keep Mailjet's power: Even by going through Symfony, you benefit from all of Mailjet's great tools: statistics (who opened the email), deliverability (not in spam), and contact management.
 
-Why would it NOT be BETTER (or simpler) ?
+Why would it not be better (or simpler) ?
 You need to know how to code: For Symfony to talk to Mailjet, you have to write PHP code, install libraries, and manage errors. It's a bit more work at the beginning.
 
 For very simple sends: If you just need to send a newsletter to your list from time to time, directly using Mailjet's "drag-and-drop" editor is much simpler and faster. You don't need a developer for that. The Mailjet site is made for that, with templates and tools for "marketers".
