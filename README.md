@@ -485,7 +485,7 @@ MAILJET_WEBHOOK_SECRET=
 
  > Make sure `.env` is in your `.gitignore` file! Never push real API keys to GitHub.
 
-### Step 4: Create Bundle Configuration
+### Step 4 : Create Bundle Configuration
 
 Create the file `config/packages/mailjet.yaml`:
 
@@ -507,7 +507,7 @@ That's it !
 
 ---
 
-## Usage — Sending Emails
+## Usage - Sending Emails
 
 ### The Basics: EmailMessage Builder
 
@@ -586,7 +586,7 @@ $this->emailSender->sendNow($email);
 
 ### Adding Tracking Variables
 
-Mailjet lets you attach custom variables to emails for tracking in their dashboard:
+Mailjet lets you attach custom variables to emails for tracking in their dashboard :
 
 ```php
 $email = EmailMessage::create()
@@ -697,8 +697,8 @@ stdout_logfile=/var/log/supervisor/messenger.log
 
 A webhook is the **reverse** of a normal API call :
 
-- **Normal API** : YOUR app → sends a request → Mailjet responds
-- **Webhook** : Mailjet → sends a request → YOUR app receives it
+- **Normal API** : your app → sends a request → Mailjet responds
+- **Webhook** : Mailjet → sends a request → your app receives it
 
 When something happens to your emails (delivered, bounced, opened, link clicked, unsubscribed, marked as spam), Mailjet sends a **POST request** to a URL you configure. This lets you react in real time.
 
