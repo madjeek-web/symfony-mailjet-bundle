@@ -45,7 +45,7 @@ It's like a universal power adapter: Symfony is the wall outlet, Mailjet is the 
 
 ```
 
-Why send emails from Symfony rather than with your regular email service ?
+### Why send emails from Symfony rather than with your regular email service ?
 
 When you send an email from your Gmail or Outlook inbox, you're using a human interface: you write a message, you click "Send", and one single person receives it. It's manual.
 
