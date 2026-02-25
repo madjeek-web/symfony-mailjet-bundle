@@ -131,11 +131,13 @@ This is where **Mailjet** comes in. It's a **SaaS (Software as a Service)** plat
 
 ---
 
+<img src="https://github.com/madjeek-web/symfony-mailjet-bundle/raw/main/screen_demo_mailjet.jpg" alt="symfony mailjet bundle page demo" width="100%" height="100%">
+
 ## What is this project ?
 
 This is a **Symfony Bundle** - a reusable plugin for PHP applications built with the [Symfony framework](https://symfony.com/).
 
-**all the modern best practices available in 2026
+all the modern best practices available in 2026
 
 ### What this bundle does
 
@@ -149,7 +151,7 @@ This is a **Symfony Bundle** - a reusable plugin for PHP applications built with
 
 ## Why is this project relevant in 2026 ?
 
-Great question! Here's why this matters right now :
+Here's why this matters right now :
 
 ### 1. PHP is booming
 PHP powers **~78% of websites** with a server-side language (including WordPress, Laravel apps, Symfony apps). The latest PHP 8.3 is fast, modern, and has features comparable to other languages. PHP 8.4 is already out.
