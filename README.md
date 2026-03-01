@@ -981,12 +981,12 @@ This project is licensed under the **MIT License** one of the most permissive op
 
 ### What MIT means for you :
 
- You CAN use this in commercial projects  
- You CAN modify the code  
- You CAN redistribute it  
- You CAN use it privately  
+ You can use this in commercial projects  
+ You can modify the code  
+ You can redistribute it  
+ You can use it privately  
  The author provides NO warranty  
- You MUST include the copyright notice  
+ You must include the copyright notice  
 
 Full license text : [https://opensource.org/licenses/MIT](https://opensource.org/licenses/MIT)
 
