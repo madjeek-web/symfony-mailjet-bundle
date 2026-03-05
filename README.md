@@ -1029,3 +1029,13 @@ composer require madjeek-web/symfony-mailjet-bundle
 * GitHub webhook configuration for automatic update : Yes
 * Creation of the release v1.0.0 : Yes
 * The package is published on Packagist : https://packagist.org/packages/madjeek-web/symfony-mailjet-bundle
+
+##
+
+## ༄☕︎︎︎ Buy Me A Coffee :
+
+<a href="https://donate.stripe.com/3cI6oH1nUgsy8WZdVHgEg00" target="_blank" rel="noopener noreferrer"><img src="https://github.com/madjeek-web/eventflow/raw/main/Buy_Me _A_Coffee.jpg" alt="Buy Me A Coffee image" width="25%" height="25%"></a>
+
+༄☕︎︎︎ [stripe.com](https://donate.stripe.com/3cI6oH1nUgsy8WZdVHgEg00)
+
+. Thank you for your support
